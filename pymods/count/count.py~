@@ -4,7 +4,7 @@ import os
 
 def word():
     os.system('clear')
-    ask = str(ask)
+    ask = raw_input('(word): ')
     x = len(ask)
     os.system('clear')
     x = str(x)
